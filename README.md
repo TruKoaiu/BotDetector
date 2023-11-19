@@ -36,7 +36,7 @@ It let you set and remove teleporation on answering the question.
 - On Join Teleport
 /onjointeleport [set/remove/true/false].
 Works the same way as On Answer Teleport, but teleport player just after joining the server to this place (can used as a simple spawn plugin).
-Answer
+- Answer
 /answer [number]
 You do not really have to ever use it, but if you do not like clicking messages on chat, have it your way. This is originally early catcher for this command, but I found out it can be used as a writen answer option.
 
