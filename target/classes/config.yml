@@ -1,0 +1,77 @@
+#The messages can use & colors
+#Plugin works with multiple worlds plugins like 'Mulitivers'
+
+
+# Messages
+
+#%randomN1% and %randomN2% are placeholders for random numbers used in simple addition question
+#Remember to always include %randomN1% and %randomN2% placeholders for player to see what he needs to add up
+after-join-message: '&aBot protection question. What is &c%randomN1% &a+ &c%randomN2%'
+
+#%Symbol% placeholder for symbol - not required
+#%TheAnswer% placeholder for correct answer - required
+#& Symbols don't work in this data type
+#The order of the answers presented is random, but symbol will always remain in place
+answer: '&eAnswer %Symbol%: &6%TheAnswer%'
+
+#%Symbol% Is a symbol like 'A' or '1)' for player's appeal.
+#e.g "Answer A:..." - not required to run, can be empty.
+symbol-one: 'A'
+symbol-two: 'B'
+
+#Message you see when you hover over any of those answers.
+hover-message: 'Click to pick this answer'
+
+#Message send after player answers correctly.
+correct-answer-message: "&aGood job, enjoy the game"
+
+#Message visible after kicking player of the server (wrong answer).
+kick-message: "&cWrong answer. &fIf you are not a bot, please try again."
+
+#Message send after player who didn't answer question, tries to use chat or commands.
+chat-message: "&cYou can't do this until you answer the question"
+
+
+#Effects
+
+#Effect for the player until answering question.
+block-movement: true
+block-interaction: true
+block-attack: true
+set-invisible: true
+set-blind: true
+set-invulnerable: true
+#Save potion effect delete all effects after player joins, and reapply after
+#They answer a question, so it won't be wasted
+save-potion-effects: true
+
+#Timers
+
+#Length in gametick (20=1s) for how long after teleportatnion the player should be invornable.
+#Because of possible teleportation between worlds, recomended to use between 10-40
+#Works only when one of teleport variables is set to true.
+keep-invulnerable: 30
+
+
+#Teleport
+
+#Teleport commands:
+
+#Teleports player before he answers.
+#Recomended usage other plugins like spawns etc. rather than this.
+teleport-on-join: false
+#Example of new config element when setting location
+#teleport-on-join-cords: location element
+
+#Teleports player back to where he was teleported from on join.
+teleport-back-on-answer: false
+
+#Teleports player to new location after answering the question.
+#Mostly used with other plugins as mentioned earlier.
+#Don't use together with 'teleport-back-on-answer' !teleport-on-answer takes priority!
+teleport-on-answer: false
+#Example of new config element when setting location
+#teleport-on-answer-cords: location element
+
+
+

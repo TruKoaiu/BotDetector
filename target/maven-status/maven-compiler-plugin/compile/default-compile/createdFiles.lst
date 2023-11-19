@@ -1,0 +1,7 @@
+github\trukoaiu\botdetector\listeners\ServerJoin.class
+github\trukoaiu\botdetector\util\TabCompleter.class
+github\trukoaiu\botdetector\BotDetector.class
+github\trukoaiu\botdetector\commands\AnswerCatcher.class
+github\trukoaiu\botdetector\commands\OnAnswerTeleport.class
+github\trukoaiu\botdetector\commands\OnJoinTeleport.class
+github\trukoaiu\botdetector\util\OnJoinTpTabCompleter.class

@@ -1,0 +1,15 @@
+name: BotDetector
+version: '${project.version}'
+main: github.trukoaiu.botdetector.BotDetector
+api-version: '1.19'
+commands:
+  answer:
+    description: Writen command to answer bot checking question
+  onjointeleport:
+    description: Sets/removes players teleport on join fot this block or changes true/false config for this option
+    permission: botdetector.setters
+    permission-message: You don't have permission to run this command
+  onanswerteleport:
+    description: Sets/removes players teleport on answer for this block or changes true/false config for this option
+    permission: botdetector.setters
+    permission-message: You don't have permission to run this command
