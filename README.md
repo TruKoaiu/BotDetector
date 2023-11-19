@@ -29,11 +29,11 @@ It's a straightforward plugin (the name may be misleading) designed to make it m
 To install you just put it in plugins folder. Then if you want to change config file, I recomend to turn the server off (but you can just /reload after), and change what you want there. Everthing should be explained inside the config file.
 
 Next are the commands, you can use 2 commands that have 4 options each.
-On Answer Teleport
+- On Answer Teleport
 /onanswerteleport [set/remove/true/false].
 It let you set and remove teleporation on answering the question. 
 [set] You can use it to teleport player to the special place, spawn, or anything you like. You can also remove (obvious), and there are also true and false options, that changes if this option should work or not. When you use set or remove it automaticly set's true or false, but you might want to save some place but not use it yes, so you place use /onanswerteleport false, and it will not work.
-On Join Teleport
+- On Join Teleport
 /onjointeleport [set/remove/true/false].
 Works the same way as On Answer Teleport, but teleport player just after joining the server to this place (can used as a simple spawn plugin).
 Answer
