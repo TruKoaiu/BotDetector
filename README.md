@@ -26,7 +26,7 @@ It's a straightforward plugin (the name may be misleading) designed to make it m
 
 ## Usage
 
-To install you just put it in plugins folder. Then if you want to change config file, I recomend to turn the server off (but you can just /reload after), and change what you want there. Everthing should be explained inside the config file.
+To install you just put "BotDetector-1.1" (or higher version) in plugins folder. Then if you want to change config file, I recomend to turn the server off (but you can just /reload after), and change what you want there. Everthing should be explained inside the config file.
 
 Next are the commands, you can use 2 commands that have 4 options each.
 - On Answer Teleport
