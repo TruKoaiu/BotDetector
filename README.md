@@ -1,5 +1,5 @@
-# BotDetector
-A Minecraft 1.19.1 Spigot plugin (and possibly other versions) that asks players simple questions and can teleport them upon request.
+# BotDetector (requested)
+A Minecraft 1.19.1 Spigot plugin (and possibly other versions) that asks players simple questions on join.
 
 It's a straightforward plugin (the name may be misleading) designed to make it more challenging for advertising bots to join the server. The plugin achieves this by restricting player movements (to an admin-chosen extent, configurable in the config file) and presenting them with simple algebra questions, such as 2 + 4. If a player answers correctly (clicks the right chat message), they can be teleported back to their original location or to a specified destination.
 
