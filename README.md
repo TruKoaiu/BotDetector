@@ -1,4 +1,4 @@
-# BotDetector (requested)
+# BotDetector - Minecraft Plugin
 A Minecraft 1.19.1 Spigot plugin (and possibly other versions) that asks players simple questions on join.
 
 It's a straightforward plugin (the name may be misleading) designed to make it more challenging for advertising bots to join the server. The plugin achieves this by restricting player movements (to an admin-chosen extent, configurable in the config file) and presenting them with simple algebra questions, such as 2 + 4. If a player answers correctly (clicks the right chat message), they can be teleported back to their original location or to a specified destination.
@@ -8,14 +8,6 @@ You have the flexibility to customize messages extensively using placeholders, s
 If you have any questions or advice, please contact me on Discord (trukoaiu).
 Thank you for using this plugin.
 
-# BotDetector
-
-A Minecraft 1.19.1 plugin (and possibly other versions) that asks players simple questions and can teleport them upon request.
-
-## Overview
-
-It's a straightforward plugin (the name may be misleading) designed to make it more challenging for advertising bots to join the server. The plugin achieves this by restricting player movements (to an admin-chosen extent, configurable in the config file) and presenting them with simple algebra questions, such as 2 + 4. If a player answers correctly (clicks the right chat message), they can be teleported back to their original location or to a specified destination.
-
 ## Features
 
 - Restrict player movements (to chosen extend).
@@ -24,7 +16,7 @@ It's a straightforward plugin (the name may be misleading) designed to make it m
 - Customize messages using placeholders.
 - Set restrictions and manage smaller details like keeping effects.
 
-## Usage
+## Instalation and Usage
 
 To install you just put "BotDetector-1.1" (or higher version) in plugins folder. Then if you want to change config file, I recomend to turn the server off (but you can just /reload after), and change what you want there. Everthing should be explained inside the config file.
 
@@ -45,14 +37,19 @@ This plugin works with multiple worlds, and most plugins, BUT you can make it no
 If you have spawn plugin, then you probably don't need On Join Teleport, so don't try to use everything "because I can" 
 
 Permission
-the permissions are "botdetector.setters" for On Answer Teleport and On Join Teleport, but answer do not really have permission set, because i don't find it necessary (maybe I am wrong, contact me then).
 
-## Configuration
+The permissions for rank plugins are "botdetector.setters" for On Answer Teleport and On Join Teleport, but answer do not really have permission set, because i don't find it necessary (maybe I am wrong, contact me then).
 
-Config file, should have all necessary decription how to use it and what is recomended or neccessary to implement in messages. You can play with the config file almost to any extend, but if you use both teleport-back-on-answer and teleport-on-answer then teleport-on-answer takes priority.
+## Configuration file
+
+Config file, should have all necessary decription how to use it and what is recomended or neccessary to implement in messages.
+
+It's not bullet proof, so if you try to mess with it it will break.
+
+When you follow instructions can play with the config file almost to any extend, but if you use both teleport-back-on-answer and teleport-on-answer then teleport-on-answer takes priority.
 
 ## Contact
 
-If you have any questions or advice, please contact me on Discord (trukoaiu).
+Discord: "trukoaiu" (don't have server at the moment, let's hope I will need one)
 
-Thank you for using this plugin.
+I make Minecraft plugins on requests (for free) as a hobby, come and suggest something!
